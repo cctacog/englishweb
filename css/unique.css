@@ -125,6 +125,18 @@ li.dropdown {
        width:25%;
        height:25%;
       }
+      .colum {
+        float:left;
+        width:45%;
+        padding:4px;
+      }
+      .fixx {
+        display:block;
+       margin-right:auto;
+       margin-left:auto;
+       width:5%;
+       height:5%;
+      }
 /*left side*/
 .containerl {
   position: relative;
