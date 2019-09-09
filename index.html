@@ -14,6 +14,49 @@
 			text-align:center;
 			color:black;
 		}	
+		body {
+			background:url(images/italiaaroma.jpg) center no-repeat gray fixed;
+      background-size:80%;
+      margin:0;
+		}
+		.my-form {
+		float:middle;
+	padding:20px;
+}
+
+.my-form .form-group {
+	padding-bottom:15px;
+}
+
+.my-form label{
+	display:block;
+	color:white;
+}
+
+.my-form input[type="text"], .my-form textarea {
+	padding:8px;
+	width:33.3%;
+}
+
+.my-form input[type="submit"] {
+	background-color:#333;
+	color:#fff;
+	padding:10px 15px;
+	border:none;
+}
+
+.block {
+	float:left;
+	width:33.3%;
+	border:1px solid #ccc;
+	padding:10px;
+	box-sizing:border-box;
+}
+p {
+	color:white;
+	 font-size:20px;
+     text-align:center;
+}
 
 	</style>
 </head>
@@ -31,12 +74,38 @@
 			</div>
 		</li>
 	</ul>
-<p>Welcome to Sophia Garcia's website! This Website was designed and coded by Sophia Garcia through Sublime Text 3.</p>
+<p>Welcome to Sophia Garcia's website!</p>
 <br>
+<div class="fixx">
+	<img src="images/myselflel.jpg">
+</div>
 <br>
 <br>
 <div class="cubed">
 	<p>My official email is <strong>gasophia2@gmail.com</strong> and my goal is to become a <strong>Computer Engineer</strong>.</p>
 </div>
+<div style="margin:200px"></div>
+<footer id="main-footer">
+		<form class="my-form">
+			<div class="form-group">
+				<label>Company: </label>
+				<input type="text" name="name" placeholder="Company Name...">
+			</div>
+			<div class="form-group">
+				<label>Name: </label>
+				<input type="text" name="name" placeholder="Name...">
+			</div>
+			<div class="form-group">
+				<label>Email: </label>
+				<input type="text" name="email" placeholder="Email...">
+			</div>
+			<div>
+				<label>Message: </label>
+				<textarea name="message"></textarea>
+			</div>
+			<input class="button" type="submit" value ="Submit" name="">
+		</form>
+		<p>Copyright &copy; 2019, Sophia G. Website</p>
+	</footer>
 </body>
 </html>
